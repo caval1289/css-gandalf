@@ -1,0 +1,66 @@
+.body{
+    margin: none;
+    width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tableaug{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.boutong{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.gandalf{
+    position: relative;
+    border: solid 2px black;
+    padding: 5px;
+    margin: 10px; 
+    opacity: 0.5;
+
+    
+}
+h2{
+    display: flex;
+}
+.non{
+    position: absolute;
+    top: 35%; 
+    left: 25%;
+    color: white;
+    font-size: 60px
+}
+.golden{
+    position: absolute;
+    top: 0px; 
+    left: 45px;
+    color: #000;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+    width: 400px; 
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, .5);
+    
+    
+   
+}
+span{
+    color: orange;
+    font-size: 50px;
+}
+.gandalf:hover .golden{
+    display: none;
+}
+
+.gandalf:hover .non{
+    transform: scale(0.4);
+    top: 450px;
+}
+.gandalf:hover{
+    opacity: 1;
+}
+
